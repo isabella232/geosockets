@@ -1,0 +1,15 @@
+name: geosockets
+
+framework:
+  type: node
+  runtime: node010
+
+services:
+  user-store: redis
+
+mem: 256
+
+processes:
+  web: coffee index.coffee
+
+ignores: ["node_modules"]

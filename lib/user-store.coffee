@@ -5,7 +5,7 @@ module.exports = class UserStore
 
   constructor: (cb) ->
     @ttl = 60*15
-    @url = require("url").parse(process.env.OPENREDIS_URL or 'redis://localhost:6379')
+    @url = require("url").parse(process.env.REDIS_URL or 'redis://localhost:6379')
     @redis = redis.createClient(@url.port, @url.hostname)
     @redis.auth(@url.auth.split(":")[1]) if @url.auth
 
