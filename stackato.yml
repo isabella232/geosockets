@@ -2,7 +2,6 @@ name: geosockets
 
 framework:
   type: node
-  runtime: node010
 
 services:
   user-store: redis
