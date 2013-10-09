@@ -9,7 +9,7 @@ module.exports = class Map
   lastRenderedAt: 0
   maxRenderInterval: 5*1000 # Don't render more than once every five seconds
   users: [] # Container array for geodata between renders
-  defaultLatLng: [37.7720947, -122.4021025] # San Francisco
+  defaultLatLng: [49.2500, 123.1000] # San Francisco
   defaultZoom: 11
   maxMarkersMobile: 50
   maxMarkersDesktop: 300

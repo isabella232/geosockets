@@ -4,7 +4,7 @@ framework:
   type: node
 
 services:
-  user-store: redis
+  "user-store": redis
 
 mem: 256
 
