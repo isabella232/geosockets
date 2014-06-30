@@ -1,8 +1,8 @@
 name: geosockets
 
 services:
-  "user-store": redis
+  user-store: redis
 
 mem: 256
 
-ignores: ["node_modules"]
+ignores: [node_modules]
