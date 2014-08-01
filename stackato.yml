@@ -1,8 +1,0 @@
-name: geosockets
-
-services:
-  user-store: redis
-
-mem: 256
-
-ignores: [node_modules]
