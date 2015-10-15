@@ -71,8 +71,6 @@ If you're new to Heroku or Node.js development, you'll need to install a few thi
 Clone the repo and install npm dependencies:
 
 ```sh
-git clone https://github.com/Stackato-Apps/geosockets.git
-cd geosockets
 npm install
 npm install -g grunt-cli
 ```
@@ -95,9 +93,8 @@ behavior in production without exposing your site visitors to debugging data.
 
 Basic integration testing is done with [CasperJS](http://casperjs.org/), a navigation scripting & testing utility for [PhantomJS](http://phantomjs.org/). Casper is integrated into the app using the [grunt-casper](https://github.com/iamchrismiller/grunt-casper) plugin, and run with foreman. Each time you make a change to your client, the casper tests are run automatically.
 
-### Deploying Geosockets to Stackato
+### Deploying Geosockets to HPE Helion Stackato
 
 ```
 stackato push -n
-stackato open
 ```
