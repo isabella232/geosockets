@@ -1,6 +1,6 @@
 applications:
 - name: geosockets
-  mem: 256
+  memory: 256
   services:
     user-store:
       type: redis
